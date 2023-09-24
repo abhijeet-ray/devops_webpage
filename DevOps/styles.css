@@ -1,0 +1,368 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('hero-bg.jpg');
+    /* background-size:400px; */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 200px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Course Section */
+.course-section {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.course-section h2{
+    /* color: red; */
+    padding-bottom: 40px;
+}
+
+.course-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.course-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.course-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.course-details p{
+    padding-bottom: 10px;
+}
+
+.course-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 30px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact-section p{
+    padding-bottom: 12px;
+}
+
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    /* align-self: flex-start; */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* linux page ----------------------------------------------------------------------------------------------- */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, pre, code {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Course Content */
+.course-content {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.course-chapter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-chapter h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-chapter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.course-chapter ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.course-chapter pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+/* devops page ----------------------------------------------------------------------------------------------- */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, pre, code {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Course Content */
+.course-content {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.course-chapter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-chapter h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-chapter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.course-chapter ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.course-chapter pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+

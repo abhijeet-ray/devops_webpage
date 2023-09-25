@@ -1,2 +1,4 @@
 # devops_webpage
-Vs code to - git - GitHub - AWS - Host 
+Vs code -> git -> GitHub -> AWS -> Host -> 
+v 0.01
+

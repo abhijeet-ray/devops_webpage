@@ -18,7 +18,7 @@ chapterHeaders.forEach(header => {
     });
 });
 
-// JavaScript for smooth scrolling
+// JavaScript for smooth scrolling - for transitation       
 const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
 
 smoothScrollLinks.forEach(link => {
@@ -30,3 +30,4 @@ smoothScrollLinks.forEach(link => {
         }
     });
 });
+ 

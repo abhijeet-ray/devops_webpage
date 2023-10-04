@@ -8,7 +8,7 @@ navLinks.forEach(link => {
     }
 });
 
-// JavaScript for chapter collapsible content
+// JavaScript for chapter collapsible content - testing
 const chapterHeaders = document.querySelectorAll('.course-chapter h2');
 
 chapterHeaders.forEach(header => {
